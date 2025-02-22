@@ -79,4 +79,33 @@ body {
 }
 .botoes button:hover {
   background-color: #83043b;
+}
+
+#sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.total-S {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181318;
+  border-radius: 20px;
+  flex-direction: column;
+  width: 100vmin;
+  height: 50vmin;
+}
+
+.fit-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.fit-img img {
+  width: 10vmin;
+  height: 10vmin;
 }/*# sourceMappingURL=index.css.map */
