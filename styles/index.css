@@ -6,6 +6,9 @@ html {
   scrollbar-width: none;
 }
 
+header {
+  position: fixed;
+}
 header img {
   width: 5vmin;
   height: 5vmin;
