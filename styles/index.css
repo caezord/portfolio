@@ -16,6 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 90vh;
 }
 
 .nome-img {
@@ -27,8 +28,10 @@ body {
   flex-direction: row;
 }
 .nome-img img {
-  width: 20vmin;
-  height: 20vmin;
+  width: 30vmin;
+  height: 30vmin;
+  margin-bottom: 10vmin;
+  margin-left: -5vmin;
 }
 .nome-img .nome {
   flex-direction: column;
@@ -48,6 +51,7 @@ body {
   justify-content: center;
   flex-direction: row;
   gap: 3vmin;
+  margin-top: -5vmin;
 }
 .botoes button {
   font-family: "Press Start 2P", serif;
@@ -56,4 +60,10 @@ body {
   width: 20vmin;
   height: 6vmin;
   border-radius: 10px;
+  color: #FEECFF;
+  box-shadow: 5px 2px 0px #FFFFFF;
+  cursor: pointer;
+}
+.botoes button:hover {
+  background-color: #83043b;
 }/*# sourceMappingURL=index.css.map */

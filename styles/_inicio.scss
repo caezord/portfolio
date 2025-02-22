@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 90vh;
 }
 
 .nome-img{
@@ -13,8 +14,10 @@
     justify-content: center;
     flex-direction: row;
     img{
-        width: 20vmin;
-        height: 20vmin;
+        width: 30vmin;
+        height: 30vmin;
+        margin-bottom: 10vmin;
+        margin-left: -5vmin;
     }
     .nome{
         flex-direction: column;
@@ -36,6 +39,7 @@
     justify-content: center;
     flex-direction: row;
     gap: 3vmin;
+    margin-top: -5vmin;
     button{
         font-family: "Press Start 2P", serif;
         background-color: $btn-color;
@@ -43,6 +47,12 @@
         width: 20vmin;
         height: 6vmin;
         border-radius: 10px;
+        color: $text;
+        box-shadow: 5px 2px 0px #FFFFFF;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: #83043b;
 
     }
 }
