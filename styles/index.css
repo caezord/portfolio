@@ -82,10 +82,12 @@ body {
 }
 
 #sobre {
+  margin-top: 10vmin;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: "Poppins";
 }
 
 .total-S {
@@ -97,6 +99,21 @@ body {
   flex-direction: column;
   width: 100vmin;
   height: 50vmin;
+  margin-bottom: 10vmin;
+}
+.total-S .botao-curriculo {
+  font-family: "Poppins";
+  font-size: 2vmin;
+  color: #DA6E46;
+  border: none;
+  width: 20vmin;
+  height: 5vmin;
+  background-color: #181318;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.total-S .botao-curriculo:hover {
+  transform: scale(1.1);
 }
 
 .fit-img {
@@ -105,7 +122,27 @@ body {
   align-items: center;
   flex-direction: row;
 }
+.fit-img h1 {
+  font-size: 8vmin;
+  line-height: 8vmin;
+  margin-left: 3vmin;
+}
 .fit-img img {
-  width: 10vmin;
-  height: 10vmin;
+  width: 30vmin;
+  height: 30vmin;
+}
+.fit-img .socials {
+  margin-left: -22vmin;
+  margin-top: 9vmin;
+}
+.fit-img .socials img {
+  width: 6vmin;
+  height: 6vmin;
+  transition: transform 0.3s ease;
+}
+.fit-img .socials img:hover {
+  transform: scale(1.1);
+}
+.fit-img .destaque {
+  color: #851A22;
 }/*# sourceMappingURL=index.css.map */

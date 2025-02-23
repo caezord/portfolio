@@ -1,8 +1,10 @@
 #sobre{
+    margin-top: 10vmin;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: "Poppins";
 }
 
 .total-S{
@@ -14,6 +16,22 @@
     flex-direction: column;
     width: 100vmin;
     height: 50vmin;
+    margin-bottom: 10vmin;
+    .botao-curriculo{
+        font-family: "Poppins";
+        font-size: 2vmin;
+        color: $accent;
+        border: none;
+        width: 20vmin;
+        height: 5vmin;
+        background-color: $background2;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    .botao-curriculo:hover{
+        transform: scale(1.1);
+    }
+    
 }
 
 .fit-img{
@@ -21,9 +39,30 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    h1{
+        font-size: 8vmin;
+        line-height: 8vmin;
+        margin-left: 3vmin;
+    }
     img{
-        width: 10vmin;
-        height: 10vmin;
+        width: 30vmin;
+        height: 30vmin;
+    }
+    .socials{
+        margin-left: -22vmin;
+        margin-top: 9vmin;
+    }
+    .socials img{
+        width: 6vmin;
+        height: 6vmin;
+        transition: transform 0.3s ease;
+        
+    }
+    .socials img:hover{
+        transform: scale(1.1);
+    }
+    .destaque{
+        color: $secundaria;
     }
     
 }
